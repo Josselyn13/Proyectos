@@ -1,0 +1,39 @@
+*{
+    transition: all 0.3s;
+}
+
+
+body{
+    background: url(../img/back.jpg);
+    background-size: cover;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+        
+}
+
+.marco{
+    border-radius: 20px;
+    background: rgb(255,255,255,.5);
+    padding: 15px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 60%;
+    padding: 20px;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+}
